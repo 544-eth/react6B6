@@ -1,9 +1,12 @@
-import { Inter } from 'next/font/google'
+import { Plus_Jakarta_Sans } from 'next/font/google'
 import './globals.css'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-const inter = Inter({ subsets: ['latin'] })
+const chukwunwike = Plus_Jakarta_Sans({
+   subsets: ['latin'],
+  weight: ['700']
+  })
 
 export const metadata = {
   title: 'Beginners React class',
@@ -14,9 +17,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={chukwunwike.className}>
         <Navbar />
-        <div className='min-h-[70vh]'>
+        <div className='min-h-[80vh]'>
           {children}
         </div>
         <Footer />
