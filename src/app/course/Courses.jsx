@@ -6,20 +6,17 @@ export default function Courses() {
     <nav>
         <ul className='flex justify-between h-10 bg-red-800 text-white text-2xl'>
             
-            <Link href='/'>
-                <li>HTML</li>
+            <Link href='/course/drama'>
+                <li>drama</li>
             </Link>
-            <Link href='/'>
-                <li>FRONTEND</li>
+            <Link href='/course/prose'>
+                <li>prose</li>
             </Link>
-            <Link href='/'>
-                <li>BACKEND</li>
+            <Link href='/course/novel'>
+                <li>novel</li>
             </Link>
-            <Link href='/'>
-                <li>JAVASCRIPT</li>
-            </Link>
-            <Link href='/'>
-                <li>DJANGO</li>
+            <Link href='/course/'>
+                <li>all</li>
             </Link>
             
         </ul>
